@@ -20,3 +20,4 @@ int main() {
 
     printf("enter num2 : ");
     scanf("%f",&num2);
+}

@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/larasultana/CLionProjects/CPS1010Calculator
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/larasultana/CPS1010-Assignment3/CPS1010Calculator
 -- The C compiler identification is AppleClang 9.0.0.9000037
 -- The CXX compiler identification is AppleClang 9.0.0.9000037
 -- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/larasultana/CLionProjects/CPS1010Calculator/cmake-build-debug
+-- Build files have been written to: /Users/larasultana/CPS1010-Assignment3/CPS1010Calculator/cmake-build-debug
