@@ -29,9 +29,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -56,45 +53,45 @@ RM = "C:\Program Files\JetBrains\CLion 2017.3\bin\cmake\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\crist\CLionProjects\tested\cmake-build-debug\CMakeFiles\CMakeTmp
+CMAKE_SOURCE_DIR = C:\Users\crist\OneDrive\Documents\CPS1010-Assignment3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\crist\CLionProjects\tested\cmake-build-debug\CMakeFiles\CMakeTmp
+CMAKE_BINARY_DIR = C:\Users\crist\OneDrive\Documents\CPS1010-Assignment3\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/cmTC_5c3e5.dir
+# Target rules for target CMakeFiles/tested.dir
 
 # All Build rule for target.
-CMakeFiles/cmTC_5c3e5.dir/all:
-	$(MAKE) -f CMakeFiles\cmTC_5c3e5.dir\build.make CMakeFiles/cmTC_5c3e5.dir/depend
-	$(MAKE) -f CMakeFiles\cmTC_5c3e5.dir\build.make CMakeFiles/cmTC_5c3e5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\crist\CLionProjects\tested\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles --progress-num=1,2 "Built target cmTC_5c3e5"
-.PHONY : CMakeFiles/cmTC_5c3e5.dir/all
+CMakeFiles/tested.dir/all:
+	$(MAKE) -f CMakeFiles\tested.dir\build.make CMakeFiles/tested.dir/depend
+	$(MAKE) -f CMakeFiles\tested.dir\build.make CMakeFiles/tested.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\crist\OneDrive\Documents\CPS1010-Assignment3\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target tested"
+.PHONY : CMakeFiles/tested.dir/all
 
 # Include target in all.
-all: CMakeFiles/cmTC_5c3e5.dir/all
+all: CMakeFiles/tested.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cmTC_5c3e5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\crist\CLionProjects\tested\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/cmTC_5c3e5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\crist\CLionProjects\tested\cmake-build-debug\CMakeFiles\CMakeTmp\CMakeFiles 0
-.PHONY : CMakeFiles/cmTC_5c3e5.dir/rule
+CMakeFiles/tested.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\crist\OneDrive\Documents\CPS1010-Assignment3\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/tested.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\crist\OneDrive\Documents\CPS1010-Assignment3\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/tested.dir/rule
 
 # Convenience name for target.
-cmTC_5c3e5: CMakeFiles/cmTC_5c3e5.dir/rule
+tested: CMakeFiles/tested.dir/rule
 
-.PHONY : cmTC_5c3e5
-
-# clean rule for target.
-CMakeFiles/cmTC_5c3e5.dir/clean:
-	$(MAKE) -f CMakeFiles\cmTC_5c3e5.dir\build.make CMakeFiles/cmTC_5c3e5.dir/clean
-.PHONY : CMakeFiles/cmTC_5c3e5.dir/clean
+.PHONY : tested
 
 # clean rule for target.
-clean: CMakeFiles/cmTC_5c3e5.dir/clean
+CMakeFiles/tested.dir/clean:
+	$(MAKE) -f CMakeFiles\tested.dir\build.make CMakeFiles/tested.dir/clean
+.PHONY : CMakeFiles/tested.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/tested.dir/clean
 
 .PHONY : clean
 
