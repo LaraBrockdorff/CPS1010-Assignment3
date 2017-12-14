@@ -21,4 +21,6 @@ int main() {
     printf("enter num2 : ");
     scanf("%f",&num2);
 
+    return 0;
+
 }
